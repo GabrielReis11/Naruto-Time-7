@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+.fundo-vila{
+    background-image: url(./Imagens/konoha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "title title title"
+    "buttons image description"
+    "buttons image description"
+    "buttons image description"
+    "buttons image description"
+    ;
+}
+
+.title{
+    border: 1px solid red;
+    grid-area: title;
+}
+
+.gradient{
+    background: rgb(18,108,179);
+    background: linear-gradient(90deg, rgba(18,108,179,1) 0%, rgba(0,0,0,0.4962359943977591) 0%);
+}
