@@ -29,8 +29,50 @@
 }
 
 .title{
-    border: 1px solid red;
     grid-area: title;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img{
+    width: 200px;
+    height: 75px;
+}
+
+.buttons{
+    grid-area: buttons;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.botao{
+    width: 250px;
+    height: 75px;
+    font-size: 28px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.naruto:hover{
+    background-color: rgb(255, 88, 28);
+}
+
+.sasuke:hover{
+    background-color: rgb(1, 1, 163);
+}
+
+.sakura:hover{
+    background-color: rgb(252, 154, 170);
+}
+
+.kakashi:hover{
+    background-color: rgb(95, 145, 95);
 }
 
 .gradient{
