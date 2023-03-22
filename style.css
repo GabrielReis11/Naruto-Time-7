@@ -21,10 +21,11 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: 
     "title title title"
-    "buttons image description"
-    "buttons image description"
-    "buttons image description"
-    "buttons image description"
+    "buttons image-showing description"
+    "buttons image-showing description"
+    "buttons image-showing description"
+    "buttons image-showing description"
+    "buttons image-showing description"
     ;
 }
 
@@ -57,6 +58,13 @@
     background-color: transparent;
     color: white;
     border-color: white;
+}
+
+.image-showing{
+    grid-area:image-showing ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .naruto:hover{
